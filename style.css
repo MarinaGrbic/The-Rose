@@ -1,0 +1,161 @@
+.as_hero {
+    position:relative;
+    background-color:#333;
+    background-image: url('images/27-279729_normal-data-src-tupac-wallpaper-hd.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+.as_hero::before {
+    content:'';
+    width:100%;
+    position:absolute;
+    height:100%;
+    background:rgba(2,2,2,.5);
+}
+
+.navbar-dark .navbar-toggler {
+    border-color:transparent;
+    font-size:1rem;
+}
+.navbar-dark .navbar-toggler:focus {
+    outline:none;
+}
+.as_hero .as_hero_content {
+    position:relative;
+    z-index:99;
+    padding:170px 0;
+    background:transparent;
+    border-radius:0;
+}
+.as_hero .as_hero_content h1, .as_hero .as_hero_content p {
+    color:#fff;
+}
+@media screen and (max-width:767px) {
+    .as_hero .as_hero_content {
+        padding:50px 0;
+   }
+}
+
+
+.as_rare {
+    position:relative;
+    background-color:#333;
+    background-image: url('images/gangsta-hip-hop-rap-wallpaper-preview.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+.as_rare::before {
+    content:'';
+    width:100%;
+    position:absolute;
+    height:100%;
+    background:rgba(2,2,2,.5);
+}
+
+.navbar-dark .navbar-toggler {
+    border-color:transparent;
+    font-size:1rem;
+}
+.navbar-dark .navbar-toggler:focus {
+    outline:none;
+}
+.as_rare .as_rare_content {
+    position:relative;
+    z-index:99;
+    padding:170px 0;
+    background:transparent;
+    border-radius:0;
+}
+.as_rare .as_rare_content h1, .as_rare .as_rare_content p {
+    color:#fff;
+}
+@media screen and (max-width:767px) {
+    .as_rare .as_rare_content {
+        padding:50px 0;
+   }
+}
+.dropdown-menu {
+    background-color: transparent;
+
+}
+.dropdown .dropdown-menu {
+    background-color: transparent;
+}
+#let{
+color:white;
+
+}
+#navbarDropdown {
+    font-size:8px;
+}
+.lead, #title {
+    text-align: center;
+}
+.btn btn-primary btn-lg {
+    background-color:pink;
+}
+ #btn {
+     
+    background-color: transparent;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+  height:34px;
+  margin:0 auto;
+  height:30px;
+  width:80px;
+  color: #FFFFFF;
+  background: #232323;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+ }
+
+ #list {
+    padding-top:40px;
+  }
+  
+  #poems {
+    color:black;
+    font-weight: bolder;
+    padding-top:30px;
+  
+  }
+ 
+      .pad {
+ 
+        font-size: 11px;
+        margin-right:50px;
+      }
+      @media (max-width: 660px){
+        .embed-responsive-item{
+          margin-left: 15px !important;
+        }
+      }
+      @media only screen and (max-width: 570px) {
+        #left{
+          width:60%;
+         
+          float:left;}
+         #right{
+          width:40%;
+          
+          float:right;}}
+         
+         @media screen and (max-width:800px){
+           #left,#right{
+             width:100%;
+             float:none;
+             margin:0 0 5px;}
+         }
+       
