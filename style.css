@@ -1,5 +1,6 @@
 .as_hero {
-    position:relative;
+    
+    position:sticky;
     background-color:#333;
     background-image: url('images/27-279729_normal-data-src-tupac-wallpaper-hd.jpg');
     -webkit-background-size: cover;
@@ -9,6 +10,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
+   
+
 }
 .as_hero::before {
     content:'';
@@ -31,13 +34,19 @@
     padding:170px 0;
     background:transparent;
     border-radius:0;
+    
 }
-.as_hero .as_hero_content h1, .as_hero .as_hero_content p {
-    color:#fff;
+.as_hero .as_hero_content h1 {
+    color:pink;
+    font-size:55px;
+}
+.as_hero .as_hero_content p {
+    font-size:55px;
 }
 @media screen and (max-width:767px) {
     .as_hero .as_hero_content {
         padding:50px 0;
+        
    }
 }
 
@@ -100,6 +109,7 @@ color:white;
 }
 .lead, #title {
     text-align: center;
+    
 }
 .btn btn-primary btn-lg {
     background-color:pink;
