@@ -169,4 +169,7 @@ color:white;
              float:none;
              margin:0 0 5px;}
          }
-       
+       #songs {
+           text-align: center;
+           font-size:15px;
+       }
